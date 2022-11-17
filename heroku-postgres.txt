@@ -1,0 +1,14 @@
+Host
+    ec2-44-196-174-238.compute-1.amazonaws.com
+Database
+    ddp99nrmkahh26
+User
+    dikktpxynjhbau
+Port
+    5432
+Password
+    a66e0f45af955307bfdd708c183bc909e8c86ab71009fa15da69f427cf4f7a75
+URI
+    postgres://dikktpxynjhbau:a66e0f45af955307bfdd708c183bc909e8c86ab71009fa15da69f427cf4f7a75@ec2-44-196-174-238.compute-1.amazonaws.com:5432/ddp99nrmkahh26
+Heroku CLI
+    heroku pg:psql postgresql-vertical-91363 --app techartisans-backend
