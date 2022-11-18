@@ -3,7 +3,7 @@ from flask import Flask, jsonify, request, redirect, session, make_response
 from flask_restful import Resource, Api
 # Postgre
 import psycopg2 as psyco
-import db
+import Database.db as db
  
 
 app = Flask(__name__)
