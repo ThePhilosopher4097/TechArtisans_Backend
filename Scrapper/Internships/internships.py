@@ -1,3 +1,5 @@
+from UserFunction.user_func import get_url
+
 # get the beautified html file and extract job titles and job links
 def get_soup(soup):
     
