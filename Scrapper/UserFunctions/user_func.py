@@ -15,4 +15,3 @@ def get_url(url):
     return soup 
 
 
-

@@ -1,5 +1,8 @@
-from UserFunction.user_func import get_url
+from Scrapper.UserFunctions import user_func
 
+url ='https://internshala.com/internships/'
+
+user_func.get_url(url)
 # get the beautified html file and extract job titles and job links
 def get_soup(soup):
     
@@ -12,3 +15,5 @@ def get_soup(soup):
         job_link.append(base+div.a.get('href'))
         
     return job_title, job_link
+
+
