@@ -305,6 +305,15 @@ Questions = [
         'option_D':'Workholic and haunted for my mission'
     },
     {
+        'question':'Do you have interest in teaching ?',
+        'question_type':'mcq',
+        'total_options':3,
+        'stage_no':3,
+        'option_A':'Nope',
+        'option_B':'may be',
+        'option_D':'Yes, I love teaching others'
+    },
+    {
         'question':'What identifies your Personality?',
         'question_type':'mcq',
         'total_options':3,
