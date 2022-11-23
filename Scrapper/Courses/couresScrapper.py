@@ -1,6 +1,6 @@
 COURSES = [
  {
-  "iOUd": 1,
+  "id": 1,
   "name": "Data analysis",
   "link": "https://fr.linkedin.com/learning/topics/analyse-de-donnees?trk=learning-topics_aside-topics&upsellOrderOrigin=default_guest_learning",
   "domains": "Business",
