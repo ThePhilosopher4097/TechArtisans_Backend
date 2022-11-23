@@ -572,6 +572,34 @@ COURSES = [
   "duration": "1hr 33min",
   "number_of_videos": 1,
   "source": "Linkedin"
+ },
+{
+  "id": 42,
+  "name": "Machine Learning Foundations: Linear Algebra",
+  "link": "https://www.linkedin.com/learning/machine-learning-foundations-linear-algebra",
+  "domains": "Machine Learning",
+  "description": "Get the training you need to stay ahead with expert-led courses on Machine Learning.",
+  "offered_by": "LinkedIn",
+  "type": "Course",
+  "rating": 4.4,
+  "difficulty": "Intermediate",
+  "duration": "1hr 20min",
+  "number_of_videos": 1,
+  "source": "Linkedin"
+ },
+{
+  "id": 43,
+  "name": "Learning Cloud Computing: Core Concepts",
+  "link": "https://www.linkedin.com/learning/learning-cloud-computing-core-concepts-13966302",
+  "domains": "Cloud Computing",
+  "description": "Get the training you need to stay ahead with expert-led courses on Cloud Computing.",
+  "offered_by": "LinkedIn",
+  "type": "Course",
+  "rating": 4.7,
+  "difficulty": "Beginner",
+  "duration": "1hr 32min",
+  "number_of_videos": 1,
+  "source": "Linkedin"
  }
 ]
 # print(COURSES[1].values())
