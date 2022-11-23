@@ -172,9 +172,7 @@ Questions = [
         'stage_no':111,
         'option_A':'Nope',
         'option_B':'Not yet, but I keep on Applying',
-        'option_C':'Yes',
-        'option_D':'Yes, I ',
-        'option_D':'No professional certifications yet, but I have referred a lot of Open-Source and free materials',
+        'option_C':'Yes'
     },
     {
         'question':'How much work experience you have so far?',
@@ -260,7 +258,7 @@ Questions = [
         'option_D':'Forget degree, I can do something of my own'
     },
     {
-        'question':'What minimum CTC range would be acceptble for you as a fresher?',
+        'question':'What minimum CTC range would be acceptable for you as a fresher?',
         'question_type':'mcq',
         'total_options':4,
         'stage_no':3,
@@ -294,7 +292,7 @@ Questions = [
         'option_A':'Study, Job and Settle down',
         'option_B':'Study and then Research',
         'option_C':'Study, Higher study, Get a lucrative Job',
-        'option_D':'Study, Parallely do side hustle, and build something of my owm'
+        'option_D':'Study, Parallely do side hustle, and build something of my own'
     },
     {
         'question':'Your preffered work culture?',
