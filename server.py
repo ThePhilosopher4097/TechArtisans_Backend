@@ -4,10 +4,12 @@ from flask_restful import Resource, Api
 # Postgre
 import psycopg2 as psyco
 import Database.db as db
+from flask_cors import CORS, cross_origin
  
 
 app = Flask(__name__)
 app.secret_key = 'techArtisans000'
+cors = CORS(app, resources={r"/*": {"origins": "*", "allow_headers": "*", "expose_headers": "*"}})
 
 api = Api(app)
 
