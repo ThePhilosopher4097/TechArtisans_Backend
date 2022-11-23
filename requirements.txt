@@ -1,4 +1,3 @@
-adblock @ file:///build/python-adblock/src/python-adblock-0.6.0/target/wheels/adblock-0.6.0-cp37-abi3-linux_x86_64.whl
 anyio==3.6.1
 arandr==0.1.10
 asgiref==3.5.2
