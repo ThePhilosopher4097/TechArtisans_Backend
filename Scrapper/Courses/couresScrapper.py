@@ -10,7 +10,8 @@ COURSES = [
   "rating": "",
   "difficulty": "intermediate",
   "duration": "",
-  "number_of_videos": ""
+  "number_of_videos": "",
+  "source": "Linkedin"
  },
  {
   "id": 2,
@@ -23,7 +24,8 @@ COURSES = [
   "rating": "",
   "difficulty": "intermediate",
   "duration": "",
-  "number_of_videos": ""
+  "number_of_videos": "",
+  "source": "Linkedin"
  },
  {
   "id": 3,
@@ -36,7 +38,8 @@ COURSES = [
   "rating": "",
   "difficulty": "intermediate",
   "duration": "",
-  "number_of_videos": ""
+  "number_of_videos": "",
+  "source": "Linkedin"
  },
  {
   "id": 4,
@@ -49,7 +52,8 @@ COURSES = [
   "rating": "",
   "difficulty": "intermediate",
   "duration": "",
-  "number_of_videos": ""
+  "number_of_videos": "",
+  "source": "Linkedin"
  },
  {
   "id": 5,
@@ -62,7 +66,8 @@ COURSES = [
   "rating": "",
   "difficulty": "intermediate",
   "duration": "",
-  "number_of_videos": ""
+  "number_of_videos": "",
+  "source": "Linkedin"
  },
  {
   "id": 6,
@@ -75,7 +80,8 @@ COURSES = [
   "rating": "",
   "difficulty": "intermediate",
   "duration": "",
-  "number_of_videos": ""
+  "number_of_videos": "",
+  "source": "Linkedin"
  },
  {
   "id": 7,
@@ -88,7 +94,8 @@ COURSES = [
   "rating": "",
   "difficulty": "intermediate",
   "duration": "",
-  "number_of_videos": ""
+  "number_of_videos": "",
+  "source": "Linkedin"
  },
  {
   "id": 8,
@@ -101,7 +108,8 @@ COURSES = [
   "rating": "",
   "difficulty": "intermediate",
   "duration": "",
-  "number_of_videos": ""
+  "number_of_videos": "",
+  "source": "Linkedin"
  },
  {
   "id": 9,
@@ -114,7 +122,8 @@ COURSES = [
   "rating": "",
   "difficulty": "intermediate",
   "duration": "",
-  "number_of_videos": ""
+  "number_of_videos": "",
+  "source": "Linkedin"
  },
  {
   "id": 10,
@@ -127,7 +136,8 @@ COURSES = [
   "rating": "",
   "difficulty": "intermediate",
   "duration": "",
-  "number_of_videos": ""
+  "number_of_videos": "",
+  "source": "Linkedin"
  },
  {
   "id": 11,
@@ -140,7 +150,8 @@ COURSES = [
   "rating": "",
   "difficulty": "intermediate",
   "duration": "",
-  "number_of_videos": ""
+  "number_of_videos": "",
+  "source": "Linkedin"
  },
  {
   "id": 12,
@@ -153,7 +164,8 @@ COURSES = [
   "rating": "",
   "difficulty": "intermediate",
   "duration": "",
-  "number_of_videos": ""
+  "number_of_videos": "",
+  "source": "Linkedin"
  },
  {
   "id": 13,
@@ -166,7 +178,8 @@ COURSES = [
   "rating": "",
   "difficulty": "intermediate",
   "duration": "",
-  "number_of_videos": ""
+  "number_of_videos": "",
+  "source": "Linkedin"
  },
  {
   "id": 14,
@@ -179,7 +192,8 @@ COURSES = [
   "rating": "",
   "difficulty": "intermediate",
   "duration": "",
-  "number_of_videos": ""
+  "number_of_videos": "",
+  "source": "Linkedin"
  },
  {
   "id": 15,
@@ -192,7 +206,8 @@ COURSES = [
   "rating": "",
   "difficulty": "intermediate",
   "duration": "",
-  "number_of_videos": ""
+  "number_of_videos": "",
+  "source": "Linkedin"
  },
  {
   "id": 16,
@@ -205,7 +220,8 @@ COURSES = [
   "rating": "",
   "difficulty": "intermediate",
   "duration": "",
-  "number_of_videos": ""
+  "number_of_videos": "",
+  "source": "Linkedin"
  },
  {
   "id": 17,
@@ -218,7 +234,8 @@ COURSES = [
   "rating": "",
   "difficulty": "intermediate",
   "duration": "",
-  "number_of_videos": ""
+  "number_of_videos": "",
+  "source": "Linkedin"
  },
  {
   "id": 18,
@@ -231,7 +248,8 @@ COURSES = [
   "rating": "",
   "difficulty": "Beginner",
   "duration": "5h 45min 01s",
-  "number_of_videos": 28
+  "number_of_videos": 28,
+  "source": "Youtube"
  },
  {
   "id": 19,
@@ -244,7 +262,8 @@ COURSES = [
   "rating": "",
   "difficulty": "Beginner",
   "duration": "4hr 20min 48s",
-  "number_of_videos": 1
+  "number_of_videos": 1,
+  "source": "Youtube"
  },
  {
   "id": 20,
@@ -257,7 +276,8 @@ COURSES = [
   "rating": "",
   "difficulty": "Beginner",
   "duration": "9hr 18min 44s",
-  "number_of_videos": 1
+  "number_of_videos": 1,
+  "source": "Youtube"
  },
  {
   "id": 21,
@@ -270,7 +290,8 @@ COURSES = [
   "rating": "",
   "difficulty": "Beginner",
   "duration": "8 Days",
-  "number_of_videos": 8
+  "number_of_videos": 8,
+  "source": "Youtube"
  },
  {
   "id": 22,
@@ -283,7 +304,8 @@ COURSES = [
   "rating": "",
   "difficulty": "Beginner",
   "duration": "1hr 1min 21s",
-  "number_of_videos": 21
+  "number_of_videos": 21,
+  "source": "Youtube"
  },
  {
   "id": 23,
@@ -296,7 +318,8 @@ COURSES = [
   "rating": "",
   "difficulty": "Beginner",
   "duration": "1hr 1min 20s",
-  "number_of_videos": 1
+  "number_of_videos": 1,
+  "source": "Youtube"
  },
  {
   "id": 24,
@@ -309,7 +332,8 @@ COURSES = [
   "rating": "",
   "difficulty": "Beginner",
   "duration": "11hr 19min 23s",
-  "number_of_videos": 1
+  "number_of_videos": 1,
+  "source": "Youtube"
  },
  {
   "id": 25,
@@ -322,7 +346,8 @@ COURSES = [
   "rating": "",
   "difficulty": "Beginner",
   "duration": "10hr 17min 11s",
-  "number_of_videos": 1
+  "number_of_videos": 1,
+  "source": "Youtube"
  },
  {
   "id": 26,
@@ -335,7 +360,8 @@ COURSES = [
   "rating": "",
   "difficulty": "Beginner",
   "duration": "5hr 46min 29s",
-  "number_of_videos": 1
+  "number_of_videos": 1,
+  "source": "Youtube"
  },
  {
   "id": 27,
@@ -348,7 +374,8 @@ COURSES = [
   "rating": "",
   "difficulty": "Beginner",
   "duration": "57min 05s",
-  "number_of_videos": 1
+  "number_of_videos": 1,
+  "source": "Youtube"
  },
  {
   "id": 28,
@@ -361,7 +388,8 @@ COURSES = [
   "rating": "",
   "difficulty": "Beginner",
   "duration": "44min 24s",
-  "number_of_videos": 1
+  "number_of_videos": 1,
+  "source": "Youtube"
  },
  {
   "id": 29,
@@ -374,7 +402,8 @@ COURSES = [
   "rating": "",
   "difficulty": "Beginner",
   "duration": "1hr 09min 07s",
-  "number_of_videos": 43
+  "number_of_videos": 43,
+  "source": "Youtube"
  },
  {
   "id": 30,
@@ -387,7 +416,8 @@ COURSES = [
   "rating": "",
   "difficulty": "Beginner",
   "duration": "11hr 33min 15s",
-  "number_of_videos": 1
+  "number_of_videos": 1,
+  "source": "Youtube"
  },
  {
   "id": 31,
@@ -400,7 +430,8 @@ COURSES = [
   "rating": "",
   "difficulty": "Beginner",
   "duration": "6 days",
-  "number_of_videos": 10
+  "number_of_videos": 10,
+  "source": "Youtube"
  },
  {
   "id": 32,
@@ -413,7 +444,8 @@ COURSES = [
   "rating": "",
   "difficulty": "Beginner",
   "duration": "08hr 21min 09s",
-  "number_of_videos": 1
+  "number_of_videos": 1,
+  "source": "Youtube"
  },
  {
   "id": 33,
@@ -426,7 +458,8 @@ COURSES = [
   "rating": "",
   "difficulty": "Beginner",
   "duration": "11hr 54min 23s",
-  "number_of_videos": 1
+  "number_of_videos": 1,
+  "source": "Youtube"
  },
  {
   "id": 34,
@@ -439,7 +472,8 @@ COURSES = [
   "rating": "",
   "difficulty": "Beginner",
   "duration": "28min 53s",
-  "number_of_videos": 1
+  "number_of_videos": 1,
+  "source": "Youtube"
  },
  {
   "id": 35,
@@ -452,7 +486,8 @@ COURSES = [
   "rating": "",
   "difficulty": "Beginner",
   "duration": "33min 03s",
-  "number_of_videos": 1
+  "number_of_videos": 1,
+  "source": "Youtube"
  },
  {
   "id": 36,
@@ -465,7 +500,8 @@ COURSES = [
   "rating": "",
   "difficulty": "Beginner",
   "duration": "11min 04s",
-  "number_of_videos": 1
+  "number_of_videos": 1,
+  "source": "Youtube"
  },
  {
   "id": 37,
@@ -478,7 +514,8 @@ COURSES = [
   "rating": "",
   "difficulty": "Beginner",
   "duration": "1hr 07min 40s",
-  "number_of_videos": 1
+  "number_of_videos": 1,
+  "source": "Youtube"
  },
  {
   "id": 38,
@@ -491,7 +528,8 @@ COURSES = [
   "rating": "",
   "difficulty": "Beginner",
   "duration": "1hr 15min 57s",
-  "number_of_videos": 1
+  "number_of_videos": 1,
+  "source": "Youtube"
  },
  {
   "id": 39,
@@ -504,7 +542,8 @@ COURSES = [
   "rating": "",
   "difficulty": "Beginner",
   "duration": "3hr 24min 57s",
-  "number_of_videos": 1
+  "number_of_videos": 1,
+  "source": "Youtube"
  },
  {
   "id": 40,
@@ -517,7 +556,8 @@ COURSES = [
   "rating": 4.7,
   "difficulty": "Beginner",
   "duration": "1hr 17min",
-  "number_of_videos": 1
+  "number_of_videos": 1,
+  "source": "Linkedin"
  },
  {
   "id": 41,
@@ -530,6 +570,8 @@ COURSES = [
   "rating": 4.7,
   "difficulty": "Beginner",
   "duration": "1hr 33min",
-  "number_of_videos": 1
+  "number_of_videos": 1,
+  "source": "Linkedin"
  }
 ]
+# print(COURSES[1].values())
