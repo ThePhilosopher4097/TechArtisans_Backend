@@ -1614,4 +1614,4 @@ COURSES = [
 # for i in range(len(COURSES)):
 #  print(COURSES[i]['name'])
 
-print(len(COURSES))
+# print(len(COURSES))
