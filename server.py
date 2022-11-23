@@ -23,7 +23,13 @@ class Register(Resource):
         return jsonify({'message': 'hello world'})
   
     def post(self):
-        user_dict = request.get_json()     
+        # user_dict = request.get_json()     
+        user_dict = dict()
+        user_dict['name'] = request.form['name']
+        user_dict['email'] = request.form['email']
+        user_dict['phone'] = request.form['phone']
+        user_dict['password'] = request.form['password']
+        user_dict['country'] = request.form['country']
 
         # ESTABLISH DB CONNECTION ############## 
         conn = db.connect_db()
@@ -78,7 +84,10 @@ class Login(Resource):
         return jsonify({'status': 200})
 
     def post(self):
-        user_dict = request.get_json()
+        #user_dict = request.get_json()
+        user_dict = dict()
+        user_dict['email'] = request.form['email']
+        user_dict['password'] = request.form['password']
 
         # ESTABLISH DB CONNECTION ############## 
         conn = db.connect_db()
