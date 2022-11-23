@@ -311,7 +311,7 @@ Questions = [
         'stage_no':3,
         'option_A':'Nope',
         'option_B':'may be',
-        'option_D':'Yes, I love teaching others'
+        'option_C':'Yes, I love teaching others'
     },
     {
         'question':'What identifies your Personality?',
@@ -321,6 +321,16 @@ Questions = [
         'option_A':'Introvert and Nerd',
         'option_B':'Ambivert',
         'option_C':'Extrovert and Public person'
+    },
+    {
+        'question':'Have interest in Finance, Stock market, economics?',
+        'question_type':'mcq',
+        'total_options':3,
+        'stage_no':3,
+        'option_A':'No, it is too boring',
+        'option_B':'Not interested but need to get involved sometimes',
+        'option_C':'Yes, Interested',
+        'option_D':'Oh Yes, I like to talk about and take care of my money things !'
     },
     {
         'question':'Relationship POV : ',
