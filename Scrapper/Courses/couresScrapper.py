@@ -602,4 +602,5 @@ COURSES = [
   "source": "Linkedin"
  }
 ]
-# print(COURSES[1].values())
+# for i in range(len(COURSES)):
+#  print(COURSES[i]['name'])
