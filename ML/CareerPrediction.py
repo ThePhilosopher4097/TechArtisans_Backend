@@ -10,7 +10,7 @@ from sklearn import svm
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 
-def predictCareer():
+def predictCareerModel():
 
     df = pd.read_csv('../Dataset/Responses.csv')
     le = LabelEncoder()
@@ -36,4 +36,7 @@ def predictCareer():
 
     dump(dtree, 'ML_Model.joblib')
 
-predictCareer()
+#predictCareerModel()
+
+def predictCareer():
+    pass
