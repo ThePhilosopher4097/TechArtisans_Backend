@@ -18,6 +18,15 @@ class Root(Resource):
     def get(self):
         return jsonify({'message': 'hello TechArtisans', 'Page-details':'You have landed to the Root Page !'})
  
+class Ques(Resource):
+
+    def get(self):
+        return jsonify({'message': 'hello world'})
+
+    def post(self):
+        user_dict = request.get_json()
+
+        return jsonify({'status': 200})
 
 class Register(Resource):
   
@@ -25,13 +34,23 @@ class Register(Resource):
         return jsonify({'message': 'hello world'})
   
     def post(self):
-        # user_dict = request.get_json()     
-        user_dict = dict()
-        user_dict['name'] = request.form['name']
-        user_dict['email'] = request.form['email']
-        user_dict['phone'] = request.form['phone']
-        user_dict['password'] = request.form['password']
-        user_dict['country'] = request.form['country']
+        user_dict = request.get_json()     
+        #user_dict = dict()
+        #user_dict['name'] = request.form['name']
+        #user_dict['email'] = request.form['email']
+        #user_dict['phone'] = request.form['phone']
+        #user_dict['password'] = request.form['password']
+
+        # RECEIVE FILE (RESUME)
+        if 'file' not in request.files:
+            abort(400)
+
+        resume_file = request.files['file']
+        print(request.files["file"].filename)
+
+        # TEXT EXTRACT
+        rec_file = request.files['file']
+       user_dict['country'] = request.form['country']
 
         # ESTABLISH DB CONNECTION ############## 
         conn = db.connect_db()
@@ -85,15 +104,6 @@ class Resume(Resource):
         return jsonify({'status': 200})
 
     def post(self):
-        response_obj = {}
-        if 'file' not in request.files:
-            abort(400)
-
-        resume_file = request.files['file']
-        print(request.files["file"].filename)
-
-        # TEXT EXTRACT
-        rec_file = request.files['file']
 
         return jsonify({'status': 200})
 
@@ -144,6 +154,7 @@ api.add_resource(Root, '/')
 api.add_resource(Register, '/user/signup/')
 api.add_resource(Login, '/user/login/')
 api.add_resource(Resume, '/resume')
+api.add_resource(Ques, '/ques')
   
   
 # driver function
