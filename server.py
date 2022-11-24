@@ -9,7 +9,7 @@ from flask_cors import CORS, cross_origin
 
 app = Flask(__name__)
 app.secret_key = 'techArtisans000'
-cors = CORS(app, resources={r"/*": {"origins": "*", "allow_headers": "*", "expose_headers": "*"}})
+cors = CORS(app)
 
 api = Api(app)
 
@@ -84,7 +84,7 @@ class Login(Resource):
   
     def get(self):
         return jsonify({'status': 200})
-
+    
     def post(self):
         user_dict = request.get_json()
         # user_dict = dict()

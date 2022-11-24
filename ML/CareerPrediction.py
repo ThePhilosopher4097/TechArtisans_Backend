@@ -38,5 +38,6 @@ def predictCareerModel():
 
 #predictCareerModel()
 
-def predictCareer():
-    pass
+def predictCareer(student_responses):
+    model = load('ML_Model.joblib')
+    model.predict([student_responses])
