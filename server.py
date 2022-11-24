@@ -5,6 +5,7 @@ from flask_restful import Resource, Api
 import psycopg2 as psyco
 import Database.db as db
 from flask_cors import CORS, cross_origin
+from ML.CareerPrediction import predictCareer
  
 
 app = Flask(__name__)
@@ -18,15 +19,6 @@ class Root(Resource):
     def get(self):
         return jsonify({'message': 'hello TechArtisans', 'Page-details':'You have landed to the Root Page !'})
  
-class Ques(Resource):
-
-    def get(self):
-        return jsonify({'message': 'hello world'})
-
-    def post(self):
-        user_dict = request.get_json()
-
-        return jsonify({'status': 200})
 
 class Register(Resource):
   
@@ -140,13 +132,25 @@ class Login(Resource):
 
         return make_response(jsonify({'error': 'Incorrect credentials'}), 601)
   
-  
+class Ques(Resource):
+
+    def get(self):
+        return jsonify({'status': 200})
+
+    def post(self):
+
+        responses = request.data
+        print(responses)
+        Result = predictCareer(responses)
+        return jsonify({'status': 200})
+
+
 # adding the defined resources along with their corresponding urls
 api.add_resource(Root, '/')
 api.add_resource(Register, '/user/signup/')
 api.add_resource(Login, '/user/login/')
 api.add_resource(Resume, '/resume')
-api.add_resource(Ques, '/ques')
+api.add_resource(Ques, '/ques/')
   
   
 # driver function

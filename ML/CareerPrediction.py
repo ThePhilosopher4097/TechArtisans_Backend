@@ -7,7 +7,7 @@ from sklearn.tree import DecisionTreeRegressor
 
 def predictCareerModel():
     
-    data = pd.read_csv('../Dataset/Responses.csv')
+    data = pd.read_csv('./Dataset/Responses.csv')
 
     # the function to encode all category data into numerical data
     def label_encoder(df):
@@ -58,7 +58,47 @@ def predictCareerModel():
 def predictCareer(student_response):
 
     loaded_model = joblib.load('CareerModel.sav')
-    #result = loaded_model.score(X_test, Y_test)
-    #print(result)
+    print(student_response)
 
-predictCareerModel()
+    def label_encoder(df):
+        df.dropna(axis = 1, inplace = True)
+        le = LabelEncoder()
+        for column in df.columns:
+            df.loc[:, column+'_trans'] = le.fit_transform(df[column])
+            
+        return df
+
+    
+    dicto = {
+        'age_range':[], 'gender':[], 'residence_type':[], 'parent_occupation':[],
+        'education_completed':[], 'medium':[], 'board':[], 'academics':[],
+        'preferred_stream':[], 'engineering_stream':[]
+    }
+
+    dicto['age_range']=student_response[0]
+    dicto['gender']=student_response[1]
+    dicto['residence_type']=student_response[2]
+    dicto['parent_occupation']=student_response[3]
+    dicto['education_completed']=student_response[5]
+    dicto['medium']=student_response[6]
+    dicto['board']=student_response[7]
+    dicto['academics']=student_response[8]
+    dicto['preferred_stream']=student_response[9]
+    dicto['engineering_stream']=student_response[11]
+    print(dicto)
+    df = pd.DataFrame(dicto, index=[0])
+    print(df.head())
+    df = label_encoder(df)
+    df.drop(columns=['age_range', 'gender', 'residence_type', 'parent_occupation','education_completed', 'medium','board', 'academics', 'preferred_stream', 'engineering_stream'] ,inplace=True)
+    result = loaded_model.predict(df)
+    print(result)
+    
+    answer = []
+    data2 = pd.read_csv('./Dataset/values_and_maps.csv')
+    for i in range(1,4):
+        print(data2[f'career_{i}'].loc[data2.index[(data2['career_1_trans']==int(result[0][i-1]))][0]])
+        answer.append(data2[f'career_{i}'].loc[data2.index[(data2['career_1_trans']==int(result[0][i-1]))][0]])
+
+    return {'status':200, 'prediction':answer}
+
+#predictCareerModel()

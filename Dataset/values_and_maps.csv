@@ -1,0 +1,100 @@
+﻿career_1,career_2,career_3,career_1_trans,career_2_trans,career_3_trans
+Product Manager,Consultant,College Professor,13,3,5
+System Administrator,Cloud Engineer,DevOps,16,2,9
+Data Analyst,Machine Learning Engineer,Business Operational Analyst,4,8,3
+System Engineer,Backend Engineer,Cyber Security,17,0,6
+Mobile Application developer,UI UX Engineer,Full-stack,10,17,10
+Machine Learning Engineer,Data Engineer,DevOps,9,5,9
+DevOps,Cloud Engineer,Backend Engineer,6,2,1
+Machine Learning Engineer,Data Analyst,Data Engineer,9,4,7
+System Engineer,System Administrator,DevOps,17,16,9
+ML Engineer,Specialist Programmer,Data Engineer,8,15,7
+Product Manager,Software Engineer,Data Engineer,13,14,7
+Cloud Engineer,System Administrator,Network Engineer,1,16,15
+Product Manager,Business Intelligence Engineer,QA Automation Engineer,13,1,17
+Business Intelligence Engineer,Product Manager,QA Automation Engineer,0,12,17
+Business Intelligence Engineer,Cloud Engineer,Product Manager,0,2,16
+Web Developer,Software Engineer,DevOps,19,14,9
+UI UX Engineer,Web Developer,Software Engineer,18,18,18
+Web Developer,Software Engineer,UI UX Engineer,19,14,23
+Product Manager,QA Automation Engineer,Business Intelligence Engineer,13,13,2
+Software Engineer,Web Developer,DevOps,14,18,9
+Software Engineer,Web Developer,DevOps,14,18,9
+Software Engineer,DevOps,Web Developer,14,7,24
+Cyber Security,Network Administrator,Network Engineer,3,10,15
+UI UX Engineer,Web Developer,Mobile Developer,18,18,13
+Data Engineer,Specialist Programmer,Data Scientist,5,15,8
+DevOps,Cloud Engineer,Software Engineer,6,2,18
+UI UX Engineer,Mobile Developer,Web Developer,18,9,24
+Network Administrator,Product Manager,System Administrator,12,12,20
+Machine Learning Engineer,Data Scientist,Data Engineer,9,6,7
+Web Developer,UI UX Engineer,DevOps,19,17,9
+Mobile Developer,Product Manager,UI UX Engineer,11,12,23
+UI UX Engineer,Web Developer,Product Manager,18,18,16
+DevOps,Web Developer,Specialist Programmer,6,18,19
+DevOps,Cloud Engineer,System Administrator,6,2,20
+Software Engineer,Web Developer,DevOps,14,18,9
+UI UX Engineer,Web Developer,AR VR Engineer,18,18,0
+Machine Learning Engineer,Data Scientist,Data Engineer,9,6,7
+Product Manager,Business Intelligence Engineer,QA Automation Engineer,13,1,17
+Software Engineer,Web Developer,Mobile Developer,14,18,13
+UI UX Engineer,Web Developer,Machine Learning Engineer,18,18,12
+Cyber Security,Data Engineer,Network Engineer,3,5,15
+UI UX Engineer,Mobile Developer,Web Developer,18,9,24
+Product Manager,Business Intelligence Engineer,Data Engineer,13,1,7
+Web Developer,Mobile Developer,IOS Engineer,19,9,11
+Specialist Programmer,Software Engineer,Web Developer,15,14,24
+Product Manager,Business Intelligence Engineer,System Administrator,13,1,20
+Specialist Programmer,Software Engineer,Web Developer,15,14,24
+Machine Learning Engineer,UI UX Engineer,Product Manager,9,17,16
+Cyber Security,Network Engineer,Cloud Engineer,3,11,4
+Cyber Security,Web Developer,Network Administrator,3,18,14
+Cyber Security,Product Manager,Network Administrator,3,12,14
+Product Manager,System Administrator,Business Intelligence Engineer,13,16,2
+Cyber Security,Network Engineer,Network Administrator,3,11,14
+UI UX Engineer,Web Developer,Product Manager,18,18,16
+Software Engineer,Web Developer,UI UX Engineer,14,18,23
+Cloud Engineer,DevOps,Web Developer,1,7,24
+Cyber Security,Network Engineer,Network Administrator,3,11,14
+UI UX Engineer,Mobile Developer,Web Developer,18,9,24
+Cloud Engineer,QA Automation Engineer,Business Intelligence Engineer,1,13,2
+Web Developer,UI UX Engineer,Mobile Developer,19,17,13
+Web Developer,Software Engineer,Specialist Programmer,19,14,19
+Web Developer,Cloud Engineer,System Design Engineer,19,2,21
+Cyber Security,Network Engineer,Network Administrator,3,11,14
+Web Developer,UI UX Engineer,Mobile Developer,19,17,13
+Software Engineer,Cloud Engineer,Network Engineer,14,2,15
+Machine Learning Engineer,Specialist Programmer,Cyber Security,9,15,6
+Machine Learning Engineer,Specialist Programmer,Network Engineer,9,15,15
+Cyber Security,System Administrator,Network Engineer,3,16,15
+Machine Learning Engineer,Specialist Programmer,Data Scientist,9,15,8
+IOS Engineer,Web Developer,Mobile Developer,7,18,13
+Web Developer,Software Engineer,UI UX Engineer,19,14,23
+Web Developer,UI UX Engineer,Mobile Developer,19,17,13
+Cyber Security,Network Engineer,System Engineer,3,11,22
+Cloud Engineer,System Administrator,DevOps,1,16,9
+Software Engineer,Consultant,Web Developer,14,3,24
+Product Manager,Business Intelligence Engineer,QA Automation Engineer,13,1,17
+Consultant,Specialist Programmer,Software Engineer,2,15,18
+DevOps,System Administrator,Product Manager,6,16,16
+Cyber Security,Network Engineer,System Engineer,3,11,22
+Product Manager,Business Intelligence Engineer,QA Automation Engineer,13,1,17
+Software Engineer,Web Developer,DevOps,14,18,9
+Cyber Security,Network Engineer,System Administrator,3,11,20
+Software Engineer,Web Developer,DevOps,14,18,9
+Web Developer,Product Manager,Mobile Developer,19,12,13
+Web Developer,Software Engineer,Mobile Developer,19,14,13
+UI UX Engineer,Web Developer,IOS Engineer,18,18,11
+Cyber Security,Network Engineer,System Administrator,3,11,20
+Cyber Security,Machine Learning Engineer,Web Developer,3,8,24
+Cyber Security,Network Engineer,System Administrator,3,11,20
+IOS Engineer,Web Developer,UI UX Engineer,7,18,23
+Cyber Security,Network Engineer,System Administrator,3,11,20
+Web Developer,Cloud Engineer,UI UX Engineer,19,2,23
+Web Developer,Software Engineer,UI UX Engineer,19,14,23
+Cloud Engineer,Web Developer,DevOps,1,18,9
+Product Manager,QA Automation Engineer,Business Intelligence Engineer,13,13,2
+Cloud Engineer,Data Scientist,Machine Learning Engineer,1,6,12
+Software Engineer,Product Manager,Business Intelligence Engineer,14,12,2
+Product Manager,QA Automation Engineer,System Administrator,13,13,20
+Software Engineer,Mobile Developer,UI UX Engineer,14,9,23
