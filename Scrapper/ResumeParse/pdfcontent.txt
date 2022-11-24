@@ -1,0 +1,112 @@
+   Sameer Manik Patil     +      +91 8788414032                   santdnyanrajmauli@gmail.com                          https://www.linkedin.com/in/sameer -patil-16022316b/  
+https://github.com/ThePhilosopher4097      https://leetcode.com/santdnyanrajmauli/    
+  https://thephilosopher.w3spaces.com/index.html?bypass -cache=1629734530   
+{ Student ||  Programmer  || Developer  || Speaker ||  Writer  || Analyst || Design Architect } 
+I am a computer science student, an active learner and enthusiastic programmer  who like to dive deep into the basics and core of any  technology  or 
+framework . I like the r esearch and analysis  part and aim  to aid the society with my generous efforts.   Reading is my favourite thing in the world . Having keen 
+interest in quantum computing and data science,  I share my expertise in content writing and software development.  
+ 
+Qualifications  
+   SSC (10th): [2017]     School:   B.G. Shanbhag  Vidyalaya    
+   From: Jalgaon     Percentage:  95.60%  
+-------------------------------------------------- ---------------------------------- -------------  
+  Diploma:  [2017-2020]   in Computer Engineering  
+  College  Nam e :     Governm ent Polytechnic , Pune (Autonomous)  
+  Percentage:  92.33%     
+-------------------------------------------------- ---------------------------------- -------------  
+  Graduation : [2021-2023]  Degree:  Bachelor of Technology   
+  College Nam e:    M IT Academy of Engineering, Pune   
+  Major:  Information Technology     Minor: Data Science    CGPA: 9.8 
+-------------------------------------------------- ---------------------------------- -------------  
+Work Experience:  
+1. Openhouse Technologies [Bengaluru – since June  2022 ] 
+Product Engineer  | Backend developer  
+Django, REST, AWS, Redis, Bitbucket, Tableau  
+ 
+2. BMC Software [Pune: Internship (Jan -June  2022)]  
+SDE intern – Java | React developer  
+Developing and deploying live chat assistant project on AWS  
+ 
+3. Caliber [US (Remote): March 2022  part time ] 
+Developer and company intelligence  data compiler  
+ 
+4. Zummit Info labs [ Bangalore: Aug-Dec 2021) ] 
+Junior Python Django Developer  
+Worked on various client use case projects  
+Deployed ML models in Zummit A I framework  
+ 
+5. Sattviki Enterprises [Noida : Sept’21 to Feb ’22 part-time] 
+Web developer (HTML | CSS | JavaScript | jQuery)  
+Developing eco -condor website for Sattviki products  
+ 
+6. MIT ED Cell  [Pune: 2 months (Jun 2021)]  
+Content writer for ED cell start -ups 
+ 
+7. Zensar Technologies ESD Trainee [Pune: 6 months]  
+Worked on My SQL | Oracle 11g ,  
+Core Java, Advanced java | Full stack java  development  
+ 
+ 
+Key Skills  
+ Competitive Programming : C | C++ | JAVA | Python . 
+ Advanced Java (JSP | Servlet  | MVC  | Spring -boot) 
+ Python Django MVT framework  
+ MySQL, PostgreSQL, Oracle DB, Mongo DB, Firebase  
+ Web Development (HTML  | CSS | JavaScript  | Bootstrap)  
+ MEAN Stack Application Development ( Angular JS | Typescript)  
+ DevOps  (GitHub , Docke r). 
+ IOT | Arduino | Android App development  
+ Google Cloud | AWS | Oracle Cloud | Azure  Deployment  
+ Data  Pre-processing  | ML |  Tableau | Algorithms  | MATLAB  
+ Software Architec ture design  (Invision | Proto.io | Lucid chart)  Achievements  and Involvements  
+ Winner @Smart India Hackathon 2022  
+ Silver Medal in National Science Olympiad  2015  
+ Finalist in National Level Smart India Hackathon 2020  
+ Finalist in National Level hackathon organised MIT WPU  
+ Served as Vice president of ‘Come -IT’ at Govt. Poly Pune  
+ Won Numerous State -level Elocution and debate competitions  
+ Won Inter -department  chess championship at MIT , Pune  
+ JP Morgan Code -for-good winner  
+-------------------------------------------------------------------------------------------------  
+Certification s 
+ Java Business Application from IIT Bombay  
+ MATLAB Onramp  
+ Google Data Analytics Specialization Certifications  
+ DSA in JavaScript , Scientific coding  by freecodecamp.org  
+ Google Cloud Developer and Facilitator  
+ Oracle Cloud Infrastructure Associate and Professional  
+ Microsoft Certified: Azure Associate  AZ-900 and DP -900 
+ Machine Learning by Stanford University  
+ Hackerrank: C++, SQL, JavaS cript, Problem Solving  
+-------------------------------------------------------------------------------------------------  
+Project  
+ 
+1] Dranzer: Drone Surveillance App  (Arduino | React  | Android  | C++)  
+ Assembled a drone and designed a self -balancing controller  
+ Designed an Android app for navigation  and live surveillance  
+ The project was selected for Smart India Hackathon 2020 and 
+MIT WPU hackathon  
+2] Cake Shop App (Android Studio | Java | Firebase)  
+ Designed an app for cake vendors to sell cakes online  
+ Service to buy cakes online from the app  
+3] Internetwork Chatting application . (JavaScript | Socket.io)  
+ Developed chatting application in JavaScript  and socket.io  
+ Purpose:  Internetwork chatting and file transfer . 
+5]  Smart Attendance . (Python -Tkinter  | ML | SQL)  
+ Desktop Software  developed for smart attendance  in college  
+ Purpose: Automated  Attendance by Face detection using ML  
+6]  Room Rental  App. (Python  | MySQL)  
+ Desktop application  with Remote SQL  connectivity  
+ Solution to Real World Problem  [Research Project] . 
+7]  Student Collab . (MEAN Stack  – Angular JS | Typescript | MongoDB )  
+ Web application using  Angular  framework .  
+ Purpose: Manage Student’s Club Related Extra -Curricular   
+8] Medical Prescription Recognition:  Handwriting OCR  
+9] Expressive Text -to-Speech: ML Research Project  
+-------------------------------------------------------------------------------------------------  
+Personal Information  
+ DOB:  29 September  2001  
+ Languages:   Marathi | Hindi  | English  | Spanish  
+ Interests:  Investing , Chess, Spanish  Language , Reading  
+-------------------------------------------------------------------------------------------------  
+
