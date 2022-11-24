@@ -40,6 +40,7 @@ class Register(Resource):
         #user_dict['email'] = request.form['email']
         #user_dict['phone'] = request.form['phone']
         #user_dict['password'] = request.form['password']
+        #user_dict['country'] = request.form['country']
 
         # RECEIVE FILE (RESUME)
         if 'file' not in request.files:
@@ -50,7 +51,7 @@ class Register(Resource):
 
         # TEXT EXTRACT
         rec_file = request.files['file']
-       user_dict['country'] = request.form['country']
+
 
         # ESTABLISH DB CONNECTION ############## 
         conn = db.connect_db()
