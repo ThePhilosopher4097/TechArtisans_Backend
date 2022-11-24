@@ -1,43 +1,64 @@
-from joblib import dump, load
+import joblib
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import confusion_matrix,accuracy_score
-from sklearn import svm
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.tree import DecisionTreeRegressor
 
 def predictCareerModel():
-
-    df = pd.read_csv('../Dataset/Responses.csv')
-    le = LabelEncoder()
-    df_cleaned = df.dropna(axis = 1)
-
-    for column in df_cleaned.columns:
-        df_cleaned[column] = le.fit_transform(df[column])
     
-    X = df_cleaned.drop(columns = ['age_range','career_1', 'career_2', 'career_3'])
-    y = df_cleaned[['career_1']]
+    data = pd.read_csv('../Dataset/Responses.csv')
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y ,test_size=0.20, random_state=42)
+    # the function to encode all category data into numerical data
+    def label_encoder(df):
+        df.dropna(axis = 1, inplace = True)
+        le = LabelEncoder()
+        for column in df.columns:
+            df.loc[:, column+'_trans'] = le.fit_transform(df[column])
+            
+        return df
 
-    dtree = DecisionTreeClassifier(random_state=1)
-    dtree = dtree.fit(X_train, y_train)
 
-    y_pred = dtree.predict(X_test)
-    cm = confusion_matrix(y_test,y_pred)
-    accuracy = accuracy_score(y_test,y_pred)
-    print("confusion matrics=",cm)
-    print("  ")
-    print("accuracy=",accuracy*10)
+    # function to select all important features for out machine learning model
+    def features(df):
+        df_train = df.drop(columns = ['age_range', 'gender', 'residence_type', 'parent_occupation',
+        'education_completed', 'medium', 'board', 'academics',
+        'preferred_stream', 'engineering_stream', 'career_1', 'career_2',
+        'career_3'])
+        X = df_train.drop(columns = ['career_1_trans', 'career_2_trans',
+        'career_3_trans'])
+        y = df_train[['career_1_trans', 'career_2_trans',
+        'career_3_trans']]
+        return X, y
 
-    dump(dtree, 'ML_Model.joblib')
+    # spliting the data into training and testing 
+    df = label_encoder(data)
+    X, y = features(df)
+    X_train, X_test, y_train, y_test = train_test_split(X, y ,test_size=0.10, random_state=42)
 
-#predictCareerModel()
+    # function for training out ML model and return the model
+    def train_model(X_train, y_train):
+        reg = DecisionTreeRegressor()
+        model = reg.fit(X_train, y_train)
+        
+        return model
 
-def predictCareer(student_responses):
-    model = load('ML_Model.joblib')
-    model.predict([student_responses])
+    # training our model
+    model = train_model(X_train, y_train)
+
+    # mapping predicted values
+    pred = model.predict([[0,2,2,2,1,0,3,2,1, 1]])
+    print("\nAccuracy : ", pred)
+    for i in range(1,4):
+        print(df[f'career_{i}'].loc[df.index[(df['career_1_trans']==int(pred[0][i-1]))][0]])
+
+    joblib.dump(model, 'CareerModel.sav')
+
+
+def predictCareer(student_response):
+
+    loaded_model = joblib.load('CareerModel.sav')
+    #result = loaded_model.score(X_test, Y_test)
+    #print(result)
+
+predictCareerModel()
