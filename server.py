@@ -9,7 +9,7 @@ from flask_cors import CORS, cross_origin
 
 app = Flask(__name__)
 app.secret_key = 'techArtisans000'
-cors = CORS(app, resources={r"/*": {"origins": "*", "allow_headers": "*", "expose_headers": "*"}})
+cors = CORS(app)
 
 api = Api(app)
 
@@ -79,6 +79,24 @@ class Register(Resource):
             db.close_db(cur, conn)
             return make_response(jsonify({'error':'Unable to create user'}), 601)
 
+class Resume(Resource):
+
+    def get(self):
+        return jsonify({'status': 200})
+
+    def post(self):
+        response_obj = {}
+        if 'file' not in request.files:
+            abort(400)
+
+        resume_file = request.files['file']
+        print(request.files["file"].filename)
+
+        # TEXT EXTRACT
+        rec_file = request.files['file']
+
+        return jsonify({'status': 200})
+
   
 class Login(Resource):
   
@@ -125,6 +143,7 @@ class Login(Resource):
 api.add_resource(Root, '/')
 api.add_resource(Register, '/user/signup/')
 api.add_resource(Login, '/user/login/')
+api.add_resource(Resume, '/resume')
   
   
 # driver function
