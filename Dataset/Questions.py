@@ -310,7 +310,7 @@ Questions = [
         'total_options':3,
         'stage_no':3,
         'option_A':'Nope',
-        'option_B':'may be',
+        'option_B':'May be',
         'option_C':'Yes, I love teaching others'
     },
     {

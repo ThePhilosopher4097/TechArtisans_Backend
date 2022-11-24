@@ -1,7 +1,7 @@
 ROADMAP = [
  {
   "ID": 1,
-  "Career Name": "Artificial Intelligence",
+  "Career Name": "Data Scientist",
   "Stage 1": "Understand artificial intelligence basics.Before learning other essential skills, first, learn the basics of Artificial Intelligence. At this step, you have to understand what is Artificial Intelligence, its impact,  future trends of Artificial Intelligence, and its applications in various fields. You can learn these things from any Youtube tutorial or from any FREE course. I am also going to list some resources to learn the fundamentals of Artificial  Intelligence.",
   "Stage 2": "Learn math.Your next step should be to learn Math. In the upcoming steps, you have to learn Machine Learning and Deep Learning algorithms. And knowledge of math will help you to understand the working of deep learning and machine learning algorithms. In Math, you have to learn: -Statistics -Probability -Linear Algebra -Calculus -There are various resources available to learn math concepts.",
   "Stage 3": "Learn programming language.After learning math, your next step should be to learn the Programming Language. In Artificial Intelligence, knowledge of programming language is essential. Without having programming language knowledge, you can’t implement anything. For Artificial Intelligence, you can learn Python, R, or Java Programming language. But if you ask me, I would suggest Python programming. Because it is beginner friendly language. If you are a beginner, you can easily learn Python. Python has various supportive libraries and packages for Machine Learning and Deep Learning. ",
@@ -15,7 +15,7 @@ ROADMAP = [
  },
  {
   "ID": 2,
-  "Career Name": "Web Developer ",
+  "Career Name": "Web Developer",
   "Stage 1": "Choose a technology on which you want to work.A full-stack development comprises front-end, back-end, and database management.  Choosing a technology on which you want to work depends on individuals,  requirements, and applications. Few technologies on which you can work and  are trending: A. MERN – The most popular and trending technology..-MongoDB – A NoSQL database that deals with data. -Express – A framework for NodeJS and handles GET, PUT, POST, DELETE functions. -React – A JavaScript library for building User Interfaces, building single-page applications. -NodeJS – An open-source server environment. B. MEAN – The major difference between MERN and MEAN is MERN  (written in JavaScript) works on React whereas MEAN deals with Angular  (a framework written in TypeScript). ",
   "Stage 2": "Frontend Development.Front-End is the UI (User Interface), it deals with the website’s overall appearance,  on how interactive and dynamic it is. For mastering it, get clear with all the  elements of HTML, CSS, and JavaScript. HTML (HyperText Markup Language) – Start with the basic application of HTML  by creating a small website that includes all the elements. Play with tables, and  forms, and try adding images and links to the website to make it more eye-catching  which in return makes your work efficient. Click here to read about the conventions  and best practices of HTML.   CSS (Cascading Style Sheets) – If you’re a person who loves creativity, you must  go through CSS. Using CSS, you can add colors to your website, give borders  to the headings or paragraphs, build the navigation bar, play with the icons,  font, and text, and many more things like that. Make the website responsive  i.e., how it looks on different screen sizes. The most popular CSS framework  used is Bootstrap. JavaScript – This is the programming language of the web. Learn about DOM  (Document Object Model), and API (Application Program Interface) properly. Frameworks – It is a platform for building software applications. It includes  programs, code libraries, and compilers which when brought together enable  the development of a project or system. These frameworks make components  reusable. Examples of frameworks are – React, Angular, Vue, etc. ",
   "Stage 3": "Backend development.The code that runs on the server, has logic to send the appropriate data from the client and receive it from the server. Also, it includes the database which stores all of the data of the application. It consists of three parts: a server, an application, and a database. Here, the code written by developers transfers information from the database to the browser. Code written by back-end developers communicates information from the database to the browser. Skills you need to have to back-end developer: programming languages, frameworks, databases, servers, and API (Application Program Interface). Programming Languages – Back-end developers should know at least one of the programming languages like Java, Python, and JavaScript. JavaScript would be the best choice as this can be used in both the front-end and back-end. Frameworks – Frameworks are generally components or functions that are implemented to improve the performance of development. It includes the library of tools and modules that builds the architecture of a website. Several popular back-end frameworks are Express, Django, Ruby on Rails, etc. Database – Various DBMS technology should be known such as MongoDB, MySQL, Oracle, SQL Server, etc. It handles with storage and management of data. Server – A system providing data, services, or programs is known as clients over a network. They share (send and receive) the data/information between client and server. API (Application Program Interface) – It is a set of defined rules that enables communication or acts as an intermediary between two applications. Request from the user is completed by the response from the server.",
@@ -71,7 +71,7 @@ ROADMAP = [
  },
  {
   "ID": 7,
-  "Career Name": "Project Manager",
+  "Career Name": "Product Manager",
   "Stage 1": "Things To Keep In Mind While Planning A Software Or A Sprint Project.Sprints are the foundation of every successful Agile development team. And the better you prepare for a sprint, the more likely you will meet your objectives. Sprint planning aids in refocusing attention, minimizing surprises and ensuring the development of a cleaner code. Sprint planning consists of a few essential processes, from correctly grooming your product backlog to structuring the sprint and organizing an efficient sprint planning meeting.",
   "Stage 2": "Review The Product Roadmap.An agile sprint's purpose is to provide better software. You are obligated as the product owner to maintain the high-level product vision at all times. Before you gather or do any sprint planning, you should revisit your product roadmap and ask some hard questions.",
   "Stage 3": "Backlog Grooming.A 30-minute product backlog grooming helps fill in the blanks on user stories that lack description or context. This entails ensuring that each story:.• Is prioritized, with the most critical tasks mentioned first..• Is prominent and thoroughly developed, allowing the team to begin immediately working on it..• Is current in context (concerning the overall product plan) and estimate (of complexity). ",
@@ -110,7 +110,7 @@ ROADMAP = [
  },
  {
   "ID": 11,
-  "Career Name": "Programming-and-DSA",
+  "Career Name": "Specialist Programmer",
   "Stage 1": "Introduction to Git.It starts from the very basics of Git & GitHub, covering all the essential commands, including concepts such as branching, pull requests, forking, etc. We also cover other concepts such as squashing, resolving merge conflicts, keeping your code in sync, and more.",
   "Stage 2": "Introduction to Programming.Types of languages Flowcharts & Pseudocode Flow of the program Time & Space Complexity.",
   "Stage 3": "Basics of Java.Java is a programming language and a platform. Java is a high level, robust, object-oriented and secure programming language. Array.IntroductionMemory managementInput and OutputArrayList IntroductionSortingInsertion SortSelection SortBubble SortCount SortRadix SortSearchingLinear SearchBinary SearchModified Binary SearchTwo PointerSubarray QuestionsStringsetc",
@@ -164,7 +164,7 @@ ROADMAP = [
  },
  {
   "ID": 15,
-  "Career Name": "Cloud Computing",
+  "Career Name": "Cloud Engineer",
   "Stage 1": "Cloud Computing OverviewAlmost every organization today has adopted some form of a cloud strategy, making Cloud computing one of the top sought-after skills. This section of the Cloud Computing ebook Career Guide provides a general overview and gives a brief introduction to the field of cloud computing.",
   "Stage 2": "Cloud Computing Industry Update.Cloud computing has gained immense traction in the past years, bringing about transformational changes and faster processes across sectors, ranging from healthcare to retail.",
   "Stage 3": "Hottest Opportunities in Cloud Computing.This section of the career guide includes top job roles in the field of Big Data as well as the most in-demand job role, that is, Cloud Architect, and the skills needed to become one. From a birds-eye-view, a Cloud Architect is responsible for setting up all of the components required for a successful cloud computing environment, create cloud networks by connecting remotely located servers, set up both front-end and back-end platforms, and develop an operational cloud-based delivery system. But is that it? Download the Cloud Computing ebook Career Guide to know the day-to-day challenges, responsibilities, and cloud career path to become a successful Cloud Architect.",
@@ -195,7 +195,7 @@ ROADMAP = [
  },
  {
   "ID": 18,
-  "Career Name": "Qa Automation Engineer",
+  "Career Name": "QA Automation Engineer",
   "Stage 1": "Computer Science.The most fundamental knowledge that one must acquire is the science behind computers which is why the first checkpoint is getting a Computer Science degree. Computer Science will expose you the ideas behind theories, principles, designs, development and implementations of software applications. It will lay a foundation to upgrade your knowledge as you explore along the technology journey.",
   "Stage 2": "QA Engineer.After acquiring Computer Science degree, you will need to land yourself into Software Quality Assurance Engineering job. This is extremely crucial as this will train you with all the necessary skills and mindset to become a good QA. You should be able to understand and deliver the vision and mission of software engineering quality.",
   "Stage 3": "Web Automation.Once you have attained enough experience in QA, you will understand all the pain points of the task and how automation can help to reduce the manual effort. That’s when you wield the power of automation! You can start exploring and implementing test automation framework for web based application. You can practice with common tools like Selenium and pair it with any programming language of your choice like Ruby and Python. This will develop all the necessary elements and senses needed to build and deliver automation framework.",
@@ -217,7 +217,7 @@ ROADMAP = [
  },
  {
   "ID": 20,
-  "Career Name": "System Design Engineer",
+  "Career Name": "System Engineer",
   "Stage 1": "Logical Design.The abstraction representation of the data flow that includes both input and output of the system can be explained within the logical design. The logical design explains four major units, these are:-Source-Destination-Data Stores-Flow of DataThe concept of designing the logical unit in a system is to prepare while keeping the level of details that virtually explains the flow of information.",
   "Stage 2": "Physical Design.It’s the process of the actual input and output of the system and its major criteria is to look after how the data is being manipulated i.e. verification, processing, and displaying as a result. Besides this, it also revolves around the interface design, process design, and data design of the user.",
   "Stage 3": "Architectural Design.The discipline that majorly focuses on meeting the requirements and works towards the structure and behavior of the system. It explains the relationship between different modules of the system development process.",
@@ -226,7 +226,7 @@ ROADMAP = [
  },
  {
   "ID": 21,
-  "Career Name": "Virtual & Augmented Reality",
+  "Career Name": "AR VR Engineer",
   "Stage 1": "Understanding AR & VRBefore getting started, we must be able to understand the difference between virtual reality and augmented reality. Most people tend to confuse both terms and use them as interchangeably, but they’re very different from each other. A VR developer creates completely new digital environments that people can see through a device such as the Oculus headset, while an AR developer creates a layer of digital experience in our reality through the use of mobile apps, such as Pokemon Go, a game that utilizes this technology.",
   "Stage 2": "EducationSince there’s no VR or AR bachelor’s degree. People usually go for alternative education like coding bootcamps. They just need to know how to program software that drives AR/VR experiences. Having a bachelor’s degree in computer science is a plus when it comes to making a career as a VR and AR developer.",
   "Stage 3": "Requirements to become a AR/VR developer To become an AR/VR developer, you must be able to work with video game engines such as Unity or Unreal. These are two platforms that allow you to recreate environments in 3D. Besides, AR/VR developers must be able to understand programming languages such as C++, C#, JavaScript, or Swift. Some of the responsibilities you’ll have as a VR or AR engineer are to develop, maintain, and upgrade the software. When you get more experienced, you’ll be able to monitor what other developers are delivering.",
