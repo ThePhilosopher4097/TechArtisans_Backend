@@ -12,10 +12,10 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix,accuracy_score
 from sklearn import svm
-from sklearn.tree import DecisionTreeClassifier
+from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor 
 from sklearn.ensemble import RandomForestClassifier
 # from xgboost import XGBClassifier
-
+import xgboost as xg
 
 # In[5]:
 

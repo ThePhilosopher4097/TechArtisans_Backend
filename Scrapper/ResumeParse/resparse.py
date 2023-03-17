@@ -6,9 +6,9 @@ import re
 file_name = input()
 
 pdfFileObj = open(file_name, 'rb')
-pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
-pageObj = pdfReader.getPage(0)
-pdfText = pageObj.extractText()
+pdfReader = PyPDF2.PdfReader(pdfFileObj)
+pageObj = pdfReader.pages[0]
+pdfText = pageObj.extract_text()
 
 # NAME
 name = pdfText.split('\n')[0]

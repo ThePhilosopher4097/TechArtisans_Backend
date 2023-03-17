@@ -16,7 +16,7 @@ def label_encoder(df):
     return df
 
 
-# function to select all important features for out machine learning model
+# function to select all important features for our machine learning model
 def features(df):
     df_train = df.drop(columns = ['age_range', 'gender', 'residence_type', 'parent_occupation',
        'education_completed', 'medium', 'board', 'academics',
